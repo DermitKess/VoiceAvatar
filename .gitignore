@@ -1,0 +1,29 @@
+# Исключить файл конфигурации PyInstaller
+main.spec
+
+# Исключить папки сборки PyInstaller
+/dist
+/build
+
+# Дополнительные рекомендуемые исключения для Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Файлы IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Временные файлы
+*.tmp
+*.bak
+*.log
