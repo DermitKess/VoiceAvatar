@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 🎤 VoiceAvatar - Визуализатор голоса
+=======
+# 🎤 VoiceAvatar - Virtual Webcam
+>>>>>>> 730d1d9141ffd84c8f65507aa6a1d5d5457d5b27
 
 ![Demo Screenshot](assets/demo.png)
 
