@@ -11,6 +11,12 @@ window = pygame.display.set_mode(WINDOW_SIZE)
 pygame.display.set_caption("VoiceAvatar")
 
 assets_dir = Path(__file__).parent / "assets"
+try:
+    icon = pygame.image.load(assets_dir / "icon.png")
+    pygame.display.set_icon(icon)
+except Exception as e:
+    print(f"Не удалось загрузить иконку: {e}")
+
 images = []
 for i in range(4):
     try:
